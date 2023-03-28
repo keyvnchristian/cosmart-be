@@ -10,7 +10,7 @@ build-linux:
 run:
 	./cosmart-be
 
-## test-native: run test and show coverage.
+## test: run test and show coverage.
 test:
 	go test -coverprofile=coverage.out ./... && go tool cover -html=coverage.out
 
