@@ -1,3 +1,17 @@
 //Get Books by Genre
 GET http://localhost:8080/v1/books/love HTTP/1.1
 content-type: application/json
+
+###
+
+//Create schedule pick up
+POST http://localhost:8080/v1/schedule HTTP/1.1
+content-type: application/json
+
+{
+  "user_id": 2,
+  "title": "Jesus is Lord",
+  "author": "Paul the Apostle",
+  "edition": 20,
+  "pickup_schedule": "2023-10-11"
+}
