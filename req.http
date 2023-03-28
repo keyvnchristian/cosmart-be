@@ -1,0 +1,3 @@
+//Get Books by Genre
+GET http://localhost:8080/v1/books/love HTTP/1.1
+content-type: application/json
